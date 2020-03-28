@@ -102,8 +102,5 @@ All code available here.
 
 ---
 
-Thank you so much for reading. Let me know the comments.
-Raoof Naushad, https://www.linkedin.com/in/raoof-naushad-378432106/ email to - raoofnaushad.7@gmail.com
-
 
 ---
