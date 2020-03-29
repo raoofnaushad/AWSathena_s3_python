@@ -2,5 +2,9 @@
 Simple way to query Amazon Athena in python with boto3
 
 
-### You can follow this blog link: 
+### You can follow this blog link:  
 ---
+https://medium.com/dataseries/automating-athena-queries-from-s3-with-python-and-save-it-as-csv-8917258b1045
+
+
+
