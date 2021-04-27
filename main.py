@@ -1,7 +1,4 @@
 import boto3
-import pandas
-import time 
-import csv
 import athena_from_s3
 import S3_cleanup
 
@@ -23,4 +20,3 @@ print("Result Data: ")
 print(data)
 ## Function for cleaning up the query results to avoid redundant data
 S3_cleanup.clean_up()
-

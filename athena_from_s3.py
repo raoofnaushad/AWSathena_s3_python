@@ -1,7 +1,8 @@
-import boto3
-import pandas
-import csv
 import time
+
+
+def get_var_char_values(d):
+    return [obj['VarCharValue'] for obj in d['Data']]
 
 
 def query_results(session, params, wait = True):    
@@ -60,4 +61,3 @@ def query_results(session, params, wait = True):
                 time.sleep(5)
 
         return False
-
