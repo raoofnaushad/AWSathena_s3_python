@@ -35,6 +35,8 @@ def query_results(session, params, wait = True):
             status = response_get_query_details['QueryExecution']['Status']['State']
             
             if (status == 'FAILED') or (status == 'CANCELLED') :
+                failure_reason = response_get_query_details['QueryExecution']['Status']['StateChangeReason']
+                print(failure_reason)
                 return False, False
 
             elif status == 'SUCCEEDED':
